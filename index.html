@@ -1,6 +1,6 @@
 ---
 layout: default
-youtubeId: lDi9uFcD7XI
+youtubeId: dQw4w9WgXcQ
 ---
     <div class="wrapper">
 
@@ -8,7 +8,8 @@ youtubeId: lDi9uFcD7XI
         <div id="title">
           <h1>Sons Of Myra Tyrnagaarde</h1>
 		  <p>Hermandad PVE Minahonda</p>
-		</div>
+		  {% include youtubePlayer.html id=page.youtubeId %}
+   	    </div>
 		 <p><a href="./another-page.html">Link to another page</a>.</p>
 		 <blockquote>
 		 <p>Los panaderos</p>
@@ -18,10 +19,7 @@ youtubeId: lDi9uFcD7XI
 
 		 <h3 id="large-image">Large image</h3>
 		 <p><img src="https://guides.github.com/activities/hello-world/branching.png" alt="Branching"></p>
-		 <div class="embed-container">
-		 <iframe src="https://www.youtube.com/embed/lDi9uFcD7XI" allowfullscreen="" width="700" height="480" frameborder="0"></iframe>
-		 </div>
-		 {% include youtubePlayer.html id=page.youtubeId %}
+
 		 </section>
 
     </div>
